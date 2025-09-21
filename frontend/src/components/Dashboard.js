@@ -16,7 +16,7 @@ const Dashboard = () => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const baseURL = 'http://localhost:5000'; // Change if your backend URL is different
+      const baseURL = 'https://sales-dashboard-rvfj.onrender.com'; // Change if your backend URL is different
 
       // Fetch Revenue & Orders
       const revRes = await axios.get(
